@@ -1,0 +1,16 @@
+using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace UnitTestProject1
+{
+    [TestClass]
+    public class UnitTest1
+    {
+        [TestMethod]
+        public void TestMethod1()
+        {
+            WebApplication7.Controllers.HomeController hc = new WebApplication7.Controllers.HomeController();
+            Assert.IsNotNull(hc);
+        }
+    }
+}
